@@ -27,6 +27,9 @@ PS A:\git_challenge> git commit -m "hello_world.txtを追加"
  create mode 100644 hello_world.txt
 PS A:\git_challenge> 
 PS A:\git_challenge> 
+PS A:\git_challenge> echo "こんにちは、世界！" >> hello_world.txt
+PS A:\git_challenge> 
+PS A:\git_challenge> 
 PS A:\git_challenge> git add hello_world.txt
 PS A:\git_challenge> 
 PS A:\git_challenge> 

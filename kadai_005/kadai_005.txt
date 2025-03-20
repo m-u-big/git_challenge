@@ -1,0 +1,45 @@
+PS A:\> mkdir git_challenge
+
+
+    Directory: A:\
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2025/03/20     20:06                git_challenge
+
+
+PS A:\> cd git_challenge
+PS A:\git_challenge> 
+PS A:\git_challenge> git init
+Initialized empty Git repository in A:/git_challenge/.git/
+PS A:\git_challenge> 
+PS A:\git_challenge> 
+PS A:\git_challenge> echo "Hello, world!" >> hello_world.txt
+PS A:\git_challenge> 
+PS A:\git_challenge> 
+PS A:\git_challenge> git add hello_world.txt
+PS A:\git_challenge> 
+PS A:\git_challenge> 
+PS A:\git_challenge> git commit -m "hello_world.txtを追加"
+[master (root-commit) 8dc2ee6] hello_world.txtを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS A:\git_challenge> 
+PS A:\git_challenge> 
+PS A:\git_challenge> git add hello_world.txt
+PS A:\git_challenge> 
+PS A:\git_challenge> 
+PS A:\git_challenge> git commit -m "日本語訳を追記"       
+[master 252db3f] 日本語訳を追記
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS A:\git_challenge> 
+PS A:\git_challenge> 
+PS A:\git_challenge> git log --oneline
+252db3f (HEAD -> master) 日本語訳を追記
+8dc2ee6 hello_world.txtを追加
+PS A:\git_challenge> 
+PS A:\git_challenge> 
+PS A:\git_challenge> 
+
+
